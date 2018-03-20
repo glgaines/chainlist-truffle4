@@ -78,6 +78,7 @@ App = {
       }
       App.loading = false;
     }).catch(function(err) {
+      console.log("error caught here 81")
       console.error(err.message);
       App.loading = false;
     });
